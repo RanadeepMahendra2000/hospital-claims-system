@@ -34,7 +34,19 @@ All endpoints are tested via **Postman**, and the project is structured for scal
 
 ## 📂 Project Structure (Important Files)
 
-<pre lang="markdown"> claims/ ├── src/ │ └── main/ │ ├── java/ │ │ └── com/ │ │ └── claims/ │ │ ├── controller/ # Handles REST API endpoints (ClaimController.java, PatientController.java) │ │ ├── service/ # Contains business logic (ClaimService.java, PatientService.java) │ │ ├── repository/ # Spring Data JPA interfaces (ClaimRepository.java, PatientRepository.java) │ │ └── model/ # Entity models (Claim.java, Patient.java) │ └── resources/ │ └── application.properties # Configuration for DB, port, etc. ├── pom.xml # Maven dependencies and plugins └── README.md # Project documentation </pre>
+<pre lang="markdown"> claims/
+├── src/
+│ ├── main/
+│ │ ├── java/
+│ │ │ └── com/claims/
+│ │ │ ├── controller/
+│ │ │ ├── service/
+│ │ │ ├── repository/
+│ │ │ └── model/
+│ │ └── resources/
+│ │ └── application.properties
+├── pom.xml
+└── README.md </pre>
 
 ---
 
